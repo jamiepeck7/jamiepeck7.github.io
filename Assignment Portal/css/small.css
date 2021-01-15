@@ -4,11 +4,13 @@ h1, h2 {font-family: 'Open Sans', sans-serif;}
 
 header {
     display: block;
-    background-color: #7b4fe2;
+    background-color: #db75db;
     height: 90px;
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+   
+    
     
   }
 
@@ -55,7 +57,7 @@ header {
     
     
   footer {
-    background-color: #7b4fe2;
+    background-color: #F0E0F0;
     height: 85px;
     padding-top: 5px;
     padding-bottom: 10px;
@@ -64,4 +66,6 @@ header {
     text-align: center;
     font-size: 15px;
     border-radius: 10px;
-  }
+    outline-style: solid;
+    outline-color: #db75db;
+         }
