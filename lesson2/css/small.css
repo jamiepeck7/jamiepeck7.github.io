@@ -1,0 +1,98 @@
+body {font-family: "Nota Sans JP",'Open Sans', sans-serif;
+      font-size: 16px; 
+    }
+
+header {
+    display: block;
+    background-color: #FF6666;
+    height: 90px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    }
+
+p.name {
+    text-align: center;
+    font-size: 20px;
+        }
+   
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    margin: auto;
+    padding: 10px;
+    max-width: 75%;
+    grid-column-gap: 15px;
+    
+     }
+     
+section {
+    border-style: groove;
+    background-color: #f5f5dc;
+    border-radius: 25px;
+     }
+
+h2 {
+    border: 20px solid #00ffff;
+    background-color: aqua;
+    text-align: center;
+    }
+
+ a.nikelink, a.idaholink, a.legolink {
+    top: 230px;
+    text-align: center;
+    font-size: 15px;
+   }
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+img {
+    display: block;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+   
+    }
+
+.nikedesc, .idahodesc, .legodesc {
+    text-align: left;
+    font-size: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+footer a:link {
+    color:black;
+  }
+  footer a:visited {
+    color:black;
+  }
+    
+  footer {
+    background-color: #FF6666;
+    height: 85px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 10px;
+        }
+
+
+
