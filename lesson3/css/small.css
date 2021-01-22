@@ -52,7 +52,7 @@ h1 {
    
   .topnav a.active {
     background-color: #0d3b66;
-    color: white;
+    color: black;
   }
 
   main {
@@ -77,7 +77,7 @@ h1 {
    
   footer a:visited {
     background-color: #0d3b66;
-    color: white;
+    color: black;
   }
 
   footer a:hover {
