@@ -1,0 +1,16 @@
+@media only screen and (min-width: 37.5em) {
+	
+	.topnav { display: flex; }
+        .topnav { flex: 1 1 100%; }
+        
+    .topnav a {
+        font-size: 25px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .bright {
+        height: auto;
+        width: auto;
+    }
+}
