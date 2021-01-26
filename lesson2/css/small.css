@@ -1,5 +1,5 @@
 body {font-family: "Nota Sans JP",'Open Sans', sans-serif;
-      font-size: 16px; 
+      font-size: 10px; 
     }
 
 header {
@@ -11,7 +11,7 @@ header {
     padding-right: 10px;
 }
 h1 {
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
     padding-top: 20px;
     }
@@ -24,7 +24,8 @@ main {
     margin: auto;
     padding: 10px;
     max-width: 75%;
-    grid-column-gap: 15px;
+    grid-column-gap: 15px; width: 100%;
+    margin-bottom: 20px;
     
      }
      
@@ -43,7 +44,7 @@ h2 {
  a.nikelink, a.idaholink, a.legolink {
     top: 230px;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
    }
 
 a:link {
