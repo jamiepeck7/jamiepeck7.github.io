@@ -24,6 +24,7 @@ main {
     margin: auto;
     padding: 10px;
     max-width: 75%;
+    gap: 1em;
      }
      
 section {
@@ -41,7 +42,8 @@ h2 {
  a.nikelink, a.idaholink, a.legolink {
     top: 230px;
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
+    padding: 10px;
    }
 
 a:link {
