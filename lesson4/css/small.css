@@ -9,7 +9,7 @@ body {font-family: "Nota Sans JP",'Open Sans', sans-serif, 'Source Sans Pro';
     background-color: #F96648;
     border-radius: 10px;
     height: 80px;
-    padding: 35px;
+    padding: 30px;
     font-size: 25px;
     color:  black;
     padding-top: 10px;
@@ -47,7 +47,8 @@ header img {
     nav {
         margin: 0 auto;
         background-color: #f39e7c;
-        padding: 10px;
+        padding: 5px;
+        border-radius: 10px;
     }
 
     
