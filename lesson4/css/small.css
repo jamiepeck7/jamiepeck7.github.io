@@ -12,7 +12,7 @@ body {font-family: "Nota Sans JP",'Open Sans', sans-serif, 'Source Sans Pro';
     padding: 30px;
     font-size: 25px;
     color:  black;
-    padding-top: 10px;
+
        }  
  
 header img {
@@ -40,6 +40,7 @@ header img {
 #ham {
     display: flex;
     justify-content: flex-end;
+    font-size: 20px;
 }
 
 
@@ -47,8 +48,8 @@ header img {
     nav {
         margin: 0 auto;
         background-color: #f39e7c;
-        padding: 5px;
         border-radius: 10px;
+       
     }
 
     
@@ -74,7 +75,6 @@ header img {
  .navigation li {
      display: none;
       font-family: 'Source Sans Pro', sans-serif;
-      font-size: 20px;
   }
   
    .navigation a:hover {
@@ -99,8 +99,10 @@ header img {
   }
 
   .weather {
-      border-style: groove;
+       border-style: groove;
       font-size: 15px;
+    
+
       
   }
   .forecast {
