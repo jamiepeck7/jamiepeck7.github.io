@@ -101,22 +101,32 @@ header img {
   .weather {
       border-style: groove;
       font-size: 15px;
-   
-    
-
+  } 
+  .weather p {
+      text-align: center;
+  }  
       
   }
   .forecast {
       border-style: groove;
       font-size: 15px;
   }
+  .forecast p {
+      text-align: center;
+  }
   .article {
       border-style: groove;
       font-size: 15px;
   }
+  .article p {
+      text-align: center;
+  }
   .contact {
       border-style: groove;
       font-size: 15px;
+  }
+  .contact p {
+      text-align: center;
   }
 
  
