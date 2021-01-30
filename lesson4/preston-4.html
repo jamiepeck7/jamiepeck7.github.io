@@ -3,8 +3,8 @@
   <head>
 <meta charset="utf-8">
 <meta name ="viewport" content="width=device-width, initial-scale=1">
- <meta name="description" content="site plan for weather site project-wdd 230">
- <title>Jamie Peck's Weather Site Plan</title>
+ <meta name="description" content="Preston Daily Breeze homepage">
+ <title>Jamie Peck's Preston weather page</title>
  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap">
  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&family=Source+Sans+Pro&display=swap">
  <link rel="stylesheet" href="css/normalize.css">
@@ -16,55 +16,65 @@
 
   <header>
 
-  <h1>Site Plan for Daily Breeze</h1>
-  
-</header>
-
-
-     
-     
-    <div class="topnav">
-        <ul>
-      <a href="index.html">Home</a> 
-      <a href="target-audience.html">Target Audience</a>
-      <a href="color-scheme.html">Color Scheme</a>
-      <a href="typograpy.html">Typography</a>
-        </ul>
-    </div>
     <div class="logo">
-      <img src="images/logo.jpg" alt="image of dailybreeze logo">
-      </div> 
-
-  
-      
-  
-<main>
- 
-    <section class="sitename">
-        <h2>Site Name</h2>
-          <p>The web site name will be Daily Breeze. The domain name chosen is dailybreeze.info. The domain name is currently avaialable
-            on Google Domains for $12 a year. </p>
-        <h3>Site Purpose</h3>
-        <p>The main purpose and objective of dailybreeze.info will be for users to find out the current weather 
-            temperatures for Preston, Soda Springs and Fish Haven, Idaho. The site will have 6 pages. One for each town, a Storm Center 
-            page and a Gallery page. The storm center page will feature the upcoming weather conditions and what to expect. The gallery page will host pictues of the towns
-        and activities that have been held there.</p>
-            <p>A secodary objective for dailybreeze.info will be to provide basic community information and upocoming
-                events. It will also provide contact information for each town's Chamber of Commerce and a location map to locate the area.
-        </p>
-  
+        <img src="images/logo.jpg" alt="image of dailybreeze logo">
+        </div> 
+        <section class="headings">
+        <h1>The Daily Breeze</h1>
+        <div class="motto">Catch the local air & news</div>
+        </section>
+    </header>
      
-    </section>
-   
+    <nav>
+        <ul class="navigation">
+          
+    <li><a id="ham" href="#" onclick="toggleMenu()">Menu &#9776;</a></li>
+     <li><a href="index.html">Home</a> </li>
+     <li><a href="preston-4.html">Preston</a></li>
+    <li><a href="soda.html">Soda Springs</a></li>
+    <li><a href="fishhaven.html">Fish Haven</a></li>
+    <li><a href="storm.html">Storm Center</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+     </nav>
 
+    
+    <main>
 
-</main>
+    <h2>Preston Idaho</h2>
+       <div class="weather">
+        <p>Hero w/weather summary</p>
+       <div class="placeholder">
+       <img src="https://i.picsum.photos/id/633/400/300.jpg?hmac=qktzbKnrrq_Z5wlbRkF8uJweXPqZQ4HGtS7Er2XekTc" alt="placeholder">
+       </div>
+    </div>
+       <div class="forecast">
+        <p>Five Day Forecast</p>
+        <div class="placeholder">
+           <img src="https://i.picsum.photos/id/1054/200/200.jpg?hmac=7qtHUdgOyKxMVpcUELySqbknGm7xI76LbA9CE0uag_o" alt="placeholder">
+            </div>
+        </div>
+      <div class="article">
+          <p>Article</p>
+          <div class="placeholder">
+             <img src="https://i.picsum.photos/id/957/400/300.jpg?hmac=IqOub1gHJgZqDL8P8_cLoR_ftcltZlLdzRMGVTVHlT8" alt="placeholder">
+            </div> 
+        </div>
+        
+      <div class="contact">
+          <p>Contact Information</p>
+          <div class="placeholder">
+            <img src="https://i.picsum.photos/id/518/400/400.jpg?hmac=o9Hg_VvgGq4EfyIfNLeT5R4ERz4H7ZwnJy78WBw6Ybs" alt="placeholder">
+            </div>
+        </div>
+   </main>
+
   <footer>
       <p>
-        &copy; 2021 | Jamie Peck | Idaho | WDD 230 |
-        <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
-      </p>
-        <script src="js/date.js"></script>
+        &copy; The Daily Breeze | Jamie Peck | 
+       </p>
+       <script src="js/day.js"></script>
   </footer>
-  </body>
+  <script src="js/menu.js"></script> 
+    </body>
 </html>
