@@ -1,6 +1,17 @@
 @media only screen and (min-width: 37.5em) {
 
+    header img {
+        width: 100px;
+        height: 100px;
+    }
 
+    .headings h1 {
+        font-size: 40px;
+    }
+    
+    .motto {
+        font-size: 20px;
+    }
    	
    .navigation { 
         display: flex; 
