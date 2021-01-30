@@ -32,7 +32,7 @@ header img {
 .motto {
     font-style: italic;
     letter-spacing: 1pt;
-    font-size: 15px;
+    font-size: 10px;
     padding-top: 10px;
     margin-left: 30px;
     }
@@ -99,8 +99,9 @@ header img {
   }
 
   .weather {
-       border-style: groove;
+      border-style: groove;
       font-size: 15px;
+   
     
 
       
