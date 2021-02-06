@@ -39,15 +39,7 @@
         font-size: 30px;
     }
     
-    .weather {
-        border-style: groove;
-        font-size: 30px;
-        
-    }
-    .forecast {
-        border-style: groove;
-        font-size: 30px;
-    }
+       
     .article {
         border-style: groove;
         font-size: 30px;
@@ -56,6 +48,7 @@
         border-style: groove;
         font-size: 30px;
     }
+   
  
     
 }
