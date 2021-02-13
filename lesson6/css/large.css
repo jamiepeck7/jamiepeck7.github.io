@@ -19,7 +19,7 @@
         position: relative;
         width: 960px;
         height: 300px;
-        padding-left: 375px;
+        padding-left: 450px;
     
        
       
@@ -29,7 +29,7 @@
       
     .summary {
         position: absolute;
-        top: 400px;
+        top: 425px;
         left: 500px;
     }
     .forecast {
