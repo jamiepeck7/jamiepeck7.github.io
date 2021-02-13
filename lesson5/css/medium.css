@@ -103,18 +103,16 @@
             }
      
     
-    .map {
-        display: inherit;
-        position: absolute;
-        padding-left: 10px;
-        top: 15px;
-        left: 100px;
-        width: 50px;
-                     
-         }
+            .map {
+                display: inherit;
+                position: absolute;
+                padding-top: 10px;
+                padding-left: 5px;
+                       
+                 }
          .address {
            text-align: right;
-           padding-right: 50px;
+           padding-right: 35px;
                   
         }
         

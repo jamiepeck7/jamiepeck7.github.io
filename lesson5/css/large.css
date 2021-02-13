@@ -24,13 +24,13 @@
         width: 960px;
         height: 250px;
         margin: 0 auto;
-        padding-left: 250px;
+        padding-left: 450px;
       
               } 
     
 
     .summary {
-        left: 300px;
+        left: 500px;
     }
     .forecast {
         width: 960px;
@@ -62,14 +62,12 @@
     }
 
     .map {
-        top: 15px;
-        left: 100px;
-        width: 200px;
-        height: 75px;
-    }
-    .address {
-        padding-right: 200px;
-    }
+        padding-left: 10px;
+        padding-top: 10px;
+     }
+     .address {
+         padding-right: 200px;
+     }
 
     footer {
         
