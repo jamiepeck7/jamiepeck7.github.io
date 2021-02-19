@@ -192,6 +192,10 @@ figure {
     padding: 5px;
     align-content: center;
     }
+.gallery img {
+    width: 100%;
+}
+
  figcaption {
      text-align: center;
      padding: 10px;
