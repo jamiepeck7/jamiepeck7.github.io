@@ -62,7 +62,7 @@
         display: contents;
     
 
-        border-color: black 1px;
+        border-color: black;
         font-size: 20px;
         width: 960px;
         height: 200px;
@@ -124,7 +124,7 @@
         .gallery {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            
+
         }
         
    
