@@ -1,0 +1,83 @@
+@media only screen and (min-width: 60em) {
+
+  
+     
+	.navigation a {
+		font-size: 20px;
+    }
+    .headings h1 {
+        font-size: 30px;
+    }
+    .motto {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+    .herodiv {
+        width: 960px;
+        height: 300px;
+    }
+
+    .hero-ph {
+        width: 960px;
+        height: 250px;
+        margin: 0 auto;
+        padding-left: 260px;
+      
+              } 
+    
+
+    .summary {
+        left: 350px;
+    }
+    .forecast {
+        width: 960px;
+        height: 200px;
+    }
+    .table {
+        width: 960px;
+    }
+    
+    .article {
+        margin: 0 auto;
+        width: 960px;
+        height: 300px;
+              }
+    .article p {
+        margin-left: 400px;
+    }
+    .rodeo img{
+        top: 20px;
+        right: 0px;
+         width: 300px;
+         height: 250px;
+                          
+          }      
+
+    .contact {
+      
+        margin: 0 auto;
+    }
+
+    .map {
+        padding-left: 10px;
+        padding-top: 10px;
+     }
+     .address {
+         padding-right: 200px;
+     }
+
+    footer {
+        
+    
+       margin: 0 auto;
+    }
+   
+ 
+
+    
+    }
+
+	

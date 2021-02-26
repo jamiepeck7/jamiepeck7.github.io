@@ -1,0 +1,120 @@
+@media only screen and (min-width: 37.5em) {
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .headings h1 {
+        font-size: 25px;
+    }
+    
+    .motto {
+        font-size: 15px;
+    }
+   	
+   .navigation { 
+        display: flex; 
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+        
+    .navigation a {
+        text-align: center;
+        font-size: 15px;
+    }
+   
+    h1 {
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+    .herodiv {
+        position: relative;
+        
+    }
+
+    .hero-ph {
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px;
+            } 
+   
+        
+       .summary {
+        position: absolute;
+        top: 30px;
+        left: 50px;
+           }
+     
+   
+   
+    .forecast {
+        display: contents;
+        font-size: 20px;
+        width: 960px;
+        height: 200px;
+       margin: 10px;
+       
+        
+              }
+    
+    .forecast h3 {
+        text-align: center;
+    }
+    table {
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right: auto;
+       margin-bottom: 30px;
+        width: 600px;
+        
+    }
+    td, th {
+        text-align: center;
+        padding: 8px;
+    }
+
+    .article p {
+       margin-left: 300px;
+        font-size: 20px;
+    }
+
+    .rodeo img{
+        top: 20px;
+        right: 0px;
+         width: 250px;
+         height: 200px;
+                          
+          }      
+    .contact {
+        border-style: groove;
+        font-size: 20px;
+            }
+     
+    
+            .map {
+                display: inherit;
+                position: absolute;
+                padding-top: 10px;
+                padding-left: 5px;
+                       
+                 }
+         .address {
+           text-align: right;
+           padding-right: 35px;
+                  
+        }
+        
+   
+    }
