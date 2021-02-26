@@ -39,7 +39,76 @@
          </ul>
       </nav>
      <main>
-         <body>
+           <h2>Storm Center Report</h2>
+           <form method = "get" action="thanks.html">
+             <fieldset>
+               <legend>Applicant Information</legend>
+               <label class="top">Full Name*<input type="text" name="fname" required minlength="5"></label>
+              
+               <label class="top">Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+               <label class="top">Phone*<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx" required></label>
+               <label class="top">Zip Code*<input type="text" name="zip" required></label>
+             </fieldset>
+
+             <fieldset>
+               <legend>Storm Information</legend>
+               <label class="top">Storm Date<input type="date" name="date"></label>
+               <label class="top">Storm Type<input list ="type" name="type"></label>
+               <datalist id="type">
+                 <option value="Flash Flood"></option>
+                  <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                      <option value="Thunderstorm"> </option>
+                        <option value="Tornado"></option>
+                
+               </datalist>
+              
+               <label class="top">Storm Region..
+                 <select name="region">
+                   <option value="">Select Region</option>
+                   <option value="preston">Preston</option>
+                   <option value="soda">Soda Springs</option>
+                   <option value="fishhaven">Fish Haven</option>
+                  </select></label>
+             </fieldset>
+             <fieldset>
+               <legend>Storm Severity: Range 1-10</legend>
+              <label class="storm"><input type="range" name="date" value = "10" min = "1" max="10"
+                step="1" list="tickmarks" ></label>
+              <datalist id="tickmarks">
+                <option value="0">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+                <option value="5">
+                <option value="6">
+                <option value="7">
+                <option value="8">
+                <option value="9">
+                <option value="10">
+              </datalist>
+
+             </fieldset>
+             <fieldset>
+              <legend>Is the User In-Danger?</legend>
+               <label class= "str"><input type="radio" name="danger" value="Yes">Yes</label>
+               <label class="str"><input type="radio" name="danger" value="Maybe">Maybe</label>
+               <label class="str"><input type="radio" name="danger" value="No">No</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Additional Information or Comments</legend>
+               <label class="info">
+               <textarea id="info" name="info" rows = "5" cols="33"></textarea></label>
+
+                     </fieldset>
+
+           <input type="submit" value = "Report Storm" class="submit">
+           
+
+
+           </form>
 
 
         

@@ -75,7 +75,11 @@
        margin: 0 auto;
     }
    
- 
+ /* form*/
+
+ form label.str {
+     padding: .4rem 0;
+ }
 
     
     }
