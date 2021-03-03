@@ -49,10 +49,10 @@ footer {
 }
 
 
-@media only screen and (min-width: 37.5em){
+@media screen and (max-width: 900px){
     .cards {
         grid-template-columns: 1fr 1fr;
-        gap: 5px;
+
     }
 }
 
