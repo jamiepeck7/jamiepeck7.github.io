@@ -16,7 +16,7 @@ fetch(requestURL)
         let p3 = document.createElement('p');
         let image = document.createElement('img');
         let name = towns[i].name;
-        let imageurl = "lesson9/images/" + towns[i].photo;
+        let imageurl = "images/" + towns[i].photo;
         console.log(imageurl);
 
         if (towns[i].name == "Fish Haven" ){
@@ -43,7 +43,7 @@ fetch(requestURL)
             p1.textContent = "Year Founded: " + towns[i].yearFounded;
             p2.textContent = "Population: " + towns[i].currentPopulation;
             p3.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-            image.setAttribute('src', "lesson9/images/" + towns[i].photo);
+            image.setAttribute('src', imageurl);
             image.setAttribute('alt', name);
             card.appendChild(h2);
             card.appendChild(h3);
@@ -61,7 +61,7 @@ fetch(requestURL)
             p1.textContent = "Year Founded: " + towns[i].yearFounded;
             p2.textContent = "Population: " + towns[i].currentPopulation;
             p3.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-            image.setAttribute('src', "lesson9/images/" + towns[i].photo);
+            image.setAttribute('src', imageurl);
             image.setAttribute('alt', name);
 
             card.appendChild(h2);

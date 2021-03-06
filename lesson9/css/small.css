@@ -126,17 +126,20 @@ header img {
     background-color: cornsilk;
            }
 
-           .cards {
+    .cards {
             display: grid;
-            gap: 10px;
             grid-template-columns: 1fr;
-            grid-template-rows: 1fr;
+         
+           
              
             }
         .cards h2 {
              text-align: center;
              font-size: 25px;
              color: darkblue;
+         }
+         .cards h3 {
+             text-align: center;
          }
          .cards p {
              text-align: center;
@@ -153,7 +156,7 @@ header img {
          }
         
          .cards section {
-           display: grid;
+         
             border: 1px solid rgb(111, 111, 141);
              background-color: cornsilk;
              padding: 10px;

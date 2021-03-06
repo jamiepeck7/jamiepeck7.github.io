@@ -48,18 +48,18 @@
             } 
 
     .cards {
-        display: grid;
-        grid-template-columns: 1fr, 1fr;
+       grid-template-columns: 1fr;
+       /* grid-template-rows: 1fr 1fr 1fr;*/
             }
-   /* .cards:nth-child(odd) img {
+   .cards:nth-child(2) img {
         grid-column: 2;
     }
-    .cards:nth-child(odd) h2, h3, p {
+    .cards:nth-child(2) h2, h3, p {
         grid-column: 1;
         grid-row: 1;
     }
-    
-     */
+   
+     
    
    
   
