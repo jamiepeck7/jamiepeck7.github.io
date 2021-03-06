@@ -1,0 +1,68 @@
+@media only screen and (min-width: 37.5em) {
+
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .headings h1 {
+        font-size: 25px;
+    }
+    
+    .motto {
+        font-size: 15px;
+    }
+   	
+   .navigation { 
+        display: flex; 
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+        
+    .navigation a {
+        text-align: center;
+        font-size: 15px;
+    }
+   
+    h1 {
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+    
+    
+
+    .hero {
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+            } 
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+            }
+   /* .cards:nth-child(odd) img {
+        grid-column: 2;
+    }
+    .cards:nth-child(odd) h2, h3, p {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+     */
+   
+   
+  
+        
+   
+    }

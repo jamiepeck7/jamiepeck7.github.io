@@ -1,0 +1,62 @@
+@media only screen and (min-width: 60em) {
+
+  
+     
+	.navigation a {
+		font-size: 20px;
+    }
+    .headings h1 {
+        font-size: 30px;
+    }
+    .motto {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+    
+    .hero {
+        display: block;
+        width: 960px;
+        height: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        
+        
+      
+              } 
+    
+
+   
+    
+    .article {
+        margin: 0 auto;
+        width: 940px;
+        height: 150px;
+              }
+   
+    footer {
+        
+    
+       margin: 0 auto;
+    }
+   
+ /* form*/
+
+ form label.str {
+     padding: .4rem 0;
+ }
+
+ /*----------homepage*/
+ .cards {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 10px;
+        }
+
+.cards h3 {
+    text-align: center;
+}
+
+}
