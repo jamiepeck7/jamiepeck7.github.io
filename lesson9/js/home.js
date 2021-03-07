@@ -5,7 +5,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-   console.table(jsonObject);  // temporary checking for valid response and data parsing
+   //console.table(jsonObject);  // temporary checking for valid response and data parsing
     const towns = jsonObject['towns'];
     for (let i = 0; i < towns.length; i++) {
         let card = document.createElement('section');
@@ -15,7 +15,9 @@ fetch(requestURL)
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
         let image = document.createElement('img');
-        let name = towns[i].name;
+        let pic = document.createElement('img');
+        let info = document.createElement('h2'+ 'h3' + 'p');
+        let name = towns[i].name
         let imageurl = "images/" + towns[i].photo;
         console.log(imageurl);
 
@@ -52,8 +54,8 @@ fetch(requestURL)
             card.appendChild(p3);
     
             card.appendChild(image);
-    
             document.querySelector('div.cards').appendChild(card);
+            document.querySelector('div.pic').appendChild(card);
         }
         else if (towns[i].name == "Soda Springs" ){
             h2.textContent = towns[i].name;
@@ -62,6 +64,7 @@ fetch(requestURL)
             p2.textContent = "Population: " + towns[i].currentPopulation;
             p3.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
             image.setAttribute('src', imageurl);
+
             image.setAttribute('alt', name);
 
             card.appendChild(h2);

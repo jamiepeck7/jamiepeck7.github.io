@@ -46,22 +46,25 @@
         margin-right: auto;
         width: 600px;
             } 
+
         
     section {
         max-width: 600px;
-        margin: .5rem auto;
-        display: flex;
-        flex-wrap: wrap;
+      
+       
     }
-    
+
     .cards {
-     display: flex;
-     flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
-   .cards:nth-child(even) {
-        flex-direction: row-reverse;
+   .cards:nth-child(even) img{
+        grid-column: 2;
     }
-    
+    .cards:nth-child(even) .info {
+        grid-column: 1;
+        grid-row: 1;
+    }
      
    
    
