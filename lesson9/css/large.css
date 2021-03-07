@@ -44,7 +44,17 @@
         grid-template-columns: 1fr 1fr 1fr;
        
                     }
-    
+    .cards h2 {
+         text-align: center;
+         font-size: 25px;
+         color: darkblue;
+                    }
+
+                    
+     .cards p {
+          text-align: center;
+          font-size: 15px;
+                    }
             
     .cards h3 {
         text-align: center;

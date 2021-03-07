@@ -55,7 +55,7 @@ fetch(requestURL)
     
             card.appendChild(image);
             document.querySelector('div.cards').appendChild(card);
-            document.querySelector('div.pic').appendChild(card);
+         
         }
         else if (towns[i].name == "Soda Springs" ){
             h2.textContent = towns[i].name;
@@ -80,16 +80,7 @@ fetch(requestURL)
 
 
 
-      //  card.appendChild(h2);
-    //    card.appendChild(h3);
-     //   card.appendChild(p1);
-    //    card.appendChild(p2);
-     //   card.appendChild(p3);
-
-      //  card.appendChild(image);
-
-    //    document.querySelector('div.cards').appendChild(card);
-
+     
     }
 
 
