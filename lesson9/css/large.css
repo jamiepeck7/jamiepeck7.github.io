@@ -35,6 +35,10 @@
         width: 940px;
         height: 150px;
               }
+
+    section {
+        display: grid;
+    }
    .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
