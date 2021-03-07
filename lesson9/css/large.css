@@ -16,13 +16,14 @@
     }
 
     
-    .hero {
+    .hero img {
         display: block;
         width: 960px;
         height: 300px;
         margin-right: auto;
         margin-left: auto;
-        
+        padding-bottom: 10px
+        ;
         
       
               } 
