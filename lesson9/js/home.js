@@ -15,8 +15,9 @@ fetch(requestURL)
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
         let image = document.createElement('img');
-        let pic = document.createElement('img');
-        let info = document.createElement('h2'+ 'h3' + 'p');
+        let info = document.createElement("div");
+
+        
         let name = towns[i].name
         let imageurl = "images/" + towns[i].photo;
         console.log(imageurl);
@@ -29,12 +30,12 @@ fetch(requestURL)
             p3.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
             image.setAttribute("src", imageurl);
             image.setAttribute('alt', name);
-            card.appendChild(h2);
-            card.appendChild(h3);
-            card.appendChild(p1);
-            card.appendChild(p2);
-            card.appendChild(p3);
-    
+            info.appendChild(h2);
+            info.appendChild(h3);
+            info.appendChild(p1);
+            info.appendChild(p2);
+            info.appendChild(p3);
+            card.appendChild(info);
             card.appendChild(image);
     
             document.querySelector('div.cards').appendChild(card);
@@ -47,12 +48,12 @@ fetch(requestURL)
             p3.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
             image.setAttribute('src', imageurl);
             image.setAttribute('alt', name);
-            card.appendChild(h2);
-            card.appendChild(h3);
-            card.appendChild(p1);
-            card.appendChild(p2);
-            card.appendChild(p3);
-    
+            info.appendChild(h2);
+            info.appendChild(h3);
+            info.appendChild(p1);
+            info.appendChild(p2);
+            info.appendChild(p3);
+            card.appendChild(info);
             card.appendChild(image);
             document.querySelector('div.cards').appendChild(card);
          
@@ -67,13 +68,13 @@ fetch(requestURL)
 
             image.setAttribute('alt', name);
 
-            card.appendChild(h2);
-            card.appendChild(h3);
-            card.appendChild(p1);
-            card.appendChild(p2);
-            card.appendChild(p3);
+            info.appendChild(h2);
+            info.appendChild(h3);
+            info.appendChild(p1);
+            info.appendChild(p2);
+            info.appendChild(p3);
+            card.appendChild(info);
             card.appendChild(image);
-    
             document.querySelector('div.cards').appendChild(card);
         }
        else{}

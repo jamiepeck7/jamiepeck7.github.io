@@ -49,9 +49,9 @@
 
         
     section {
+        display: grid;
         max-width: 600px;
-      
-       
+             
     }
 
     .cards {
@@ -60,9 +60,14 @@
         grid-template-rows: 1fr 1fr 1fr;
     }
    
+   .cards section {
+       display: flex;
+   }
+   .cards section:nth-child(even) {
+       flex-direction: row-reverse;
+   }
    
-   
-  
+ 
         
    
     }

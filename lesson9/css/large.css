@@ -22,29 +22,28 @@
         height: 300px;
         margin-right: auto;
         margin-left: auto;
-        padding-bottom: 10px
-        ;
-        
-      
+        padding-bottom: 10px;
               } 
     
-
-   
-    
+  
     .article {
         margin: 0 auto;
         width: 940px;
         height: 150px;
               }
 
-    section {
-        display: grid;
-    }
+   
    .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-       
+        max-width: 1200px;
+        margin: 0 auto;
+      
                     }
+    .cards section {
+        display: block;
+        
+    }
     .cards h2 {
          text-align: center;
          font-size: 25px;
@@ -60,6 +59,8 @@
     .cards h3 {
         text-align: center;
             }
+    
+
     footer {
         
     
