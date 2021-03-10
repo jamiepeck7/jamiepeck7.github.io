@@ -163,6 +163,22 @@ header img {
              margin: 10px;
              
          } 
+         .contact {
+            position: relative;
+            height: 300px;
+            width: auto;
+            border: 1px groove grey;
+            background-color: cornsilk;
+            padding-top: 5px;
+           text-align: center;
+            font-size: 20px;
+             }
+    
+         .map {
+            display: none;
+                     }
+            
+      
     
   
   footer {

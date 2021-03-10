@@ -59,7 +59,18 @@
     .cards h3 {
         text-align: center;
             }
+     .contact {
     
+    margin: 0 auto;
+            }
+        
+            .map {
+                padding-left: 10px;
+                padding-top: 10px;
+             }
+             .address {
+                 padding-right: 200px;
+             }
 
     footer {
         

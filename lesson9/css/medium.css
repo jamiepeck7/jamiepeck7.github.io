@@ -66,7 +66,24 @@
    .cards section:nth-child(even) {
        flex-direction: row-reverse;
    }
-   
+   .contact {
+    border-style: groove;
+    font-size: 20px;
+        }
+ 
+
+        .map {
+            display: inherit;
+            position: absolute;
+            padding-top: 10px;
+            padding-left: 5px;
+                   
+             }
+     .address {
+       text-align: right;
+       padding-right: 35px;
+              
+    }
  
         
    
