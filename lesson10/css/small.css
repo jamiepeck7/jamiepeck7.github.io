@@ -144,13 +144,18 @@ header img {
  .rodeo img {
     position: absolute;
      width: 200px;
-      height: 215px;
+      height: 200px;
       left: 30px;
-      top: 40px;
+      top: 70px;
       
                
        }  
      
+    .article {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     .article p {
         text-align: justify;
         margin-left: 250px;

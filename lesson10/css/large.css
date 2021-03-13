@@ -79,7 +79,7 @@
     }
 
     .address h3 {
-        align-items: left;
+        text-align: left;
     }
     .address {
         padding-right: 200px;
