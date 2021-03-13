@@ -42,11 +42,11 @@
            <form method = "get" action="thanks.html">
              <fieldset>
                <legend>Applicant Information</legend>
-               <label class="top">Full Name*<input type="text" name="fname" required minlength="5"></label>
+               <label class="top">Full Name*<input type="text" name="fname" pattern = "[a-zA-Z ]{5,}" required></label>
               
                <label class="top">Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
                <label class="top">Phone*<input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx" required></label>
-               <label class="top">Zip Code*<input type="text" name="zip" required></label>
+               <label class="top">Zip Code*<input type="text" name="zip" pattern = "[0-9]{5}" required></label>
              </fieldset>
 
              <fieldset>
@@ -64,7 +64,7 @@
               
                <label class="top">Storm Region..
                  <select name="region">
-                   <option value="">Select Region</option>
+                   <option value="Select Region" disabled>Select Region</option>
                    <option value="preston">Preston</option>
                    <option value="soda">Soda Springs</option>
                    <option value="fishhaven">Fish Haven</option>
@@ -73,7 +73,7 @@
              <fieldset>
                <legend>Storm Severity: Range 1-10</legend>
               <label class="storm"><input type="range" name="date" value = "10" min = "1" max="10"
-                step="1" list="tickmarks" ></label>
+                step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingvalue"></span></label>
               <datalist id="tickmarks">
                 <option value="0">
                 <option value="1">
@@ -125,6 +125,7 @@
         </footer>
         <script src="js/menu.js"></script> 
         <script src="js/banner.js"></script>
+        <script src="js/storm.js"></script>
        
           </body>
       </html>

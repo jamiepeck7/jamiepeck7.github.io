@@ -1,4 +1,4 @@
-body {font-family: "Nota Sans JP",'Open Sans', sans-serif, 'Source Sans Pro';
+body {font-family: "Roboto", sans-serif;
     font-size: 16px; 
   }
 
@@ -106,82 +106,79 @@ header img {
       font-size: 20px;
   }
 
- 
+  .herodiv {
+   position: relative;
+    width: 300px;
+    height: 300px;
+}
 
-  .forecast1 {
-      visibility: hidden;
-  }
-    
- 
+
+   
+   .summary {
+        position: absolute;
+         top: 400px;
+         left: 75px;
+         background-color: rgb(243, 224, 224);
+         
+         border: 1px solid rgb(216, 201, 201);
+         padding: .5rem;
+         box-shadow: 0 0 30px #777;
+         font-size: 12px;
+     }
+       
+   .forecast {
+        display: none;
+   }
+        
     .article h3 {
         text-align: center;
     }
 
   .article {
-    text-align: justify;
-    padding: 20px;
+    position: relative;
    border: 1px groove grey;
     background-color: cornsilk;
+    margin-top: 10px;
            }
 
-    .cards {
-            display: grid;
-            grid-template-columns: 1fr;
-           
-         
-           
-             
-            }
-        .cards h2 {
-             text-align: center;
-             font-size: 25px;
-             color: darkblue;
-         }
-         .cards h3 {
-             text-align: center;
-         }
-         .cards p {
-             text-align: center;
-             font-size: 15px;
-         }
-        
-        
-         .cards img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-             box-shadow: 0 0 50px #333;
-                  
-         }
-        
-         .cards section {
-         
-            border: 1px solid rgb(111, 111, 141);
-             background-color: cornsilk;
-             padding: 10px;
-             margin: 10px;
-             
-         } 
-         .contact {
-            position: relative;
-            height: 300px;
-            width: auto;
-            border: 1px groove grey;
-            background-color: cornsilk;
-            padding-top: 5px;
-           text-align: center;
-            font-size: 20px;
-             }
-    
-         .map {
-            display: none;
-                     }
-            
+ .rodeo img {
+    position: absolute;
+     width: 200px;
+      height: 215px;
+      left: 30px;
+      top: 40px;
       
-    
+               
+       }  
+     
+    .article p {
+        text-align: justify;
+        margin-left: 250px;
+        padding: 20px;
+           }
+    .article h3 {
+        padding-left: 30px;
+      
+    }
+
+    .contact {
+        position: relative;
+        height: 300px;
+        width: auto;
+        border: 1px groove grey;
+        background-color: cornsilk;
+        padding-top: 5px;
+       text-align: center;
+        font-size: 20px;
+         }
+
+     .map {
+        display: none;
+                 }
+        
   
   footer {
-        background-color:  #F96648;
+        background-color:  #F96648;;
         height: 85px;
         padding-top: 5px;
         padding-bottom: 10px;
@@ -193,12 +190,9 @@ header img {
             }
   
 
+  
+  
  
+        
 
-/*-----------Wireframes--------------*/
-
-.wireframes img {
-    margin: 10px;
-    padding: 10px;
-    display: block;
-}
+   

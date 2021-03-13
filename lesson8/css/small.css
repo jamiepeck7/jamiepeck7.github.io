@@ -201,13 +201,13 @@ header img {
 
   form fieldset {
       margin: 2rem 0;
-      border: 1px solid grey;
+      border: 1px solid #575757;
       border-radius: 10px;
       padding: .5rem 2%;
   }
 
   form legend {
-      color:  #F96648;
+      color: black;
       margin: 0 1rem;
       padding: 0 .5rem;
   }
@@ -215,7 +215,7 @@ header img {
   form label.top, form div {
       display: block;
       padding-top: 1rem;
-      color:  #F96648;
+      color: black;
       font-size: .9rem;
         }
     
@@ -223,13 +223,13 @@ form label.top input, form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px #575757;
     border-radius: 4px;
     padding: .75rem;
     color: black;
     width: 100%;
     max-width: 20rem;
-    background-color: rgb(253, 201, 181);
+    background-color: #ffffe0;
 }
 
 form label.storm input {
@@ -242,12 +242,12 @@ form label.storm input {
 form label.str {
     display: block;
     padding: .75rem 0;
-    color: #555;
+    color: black;
 }
 
 form input.submit {
     border: none;
-    background-color:  #f39e7c;
+    background-color:   #ffffe0;
     color: black;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -257,11 +257,11 @@ form input.submit {
 }
 
 form label.top input:required {
-    border-left: #F96648 solid 6px;
+    border-left: black;
 }
 
 form label.top input:required:valid {
-    border-left: cornsilk solid 6px;
+    border-left: black solid 6px;
 }
 
 
