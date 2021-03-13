@@ -68,8 +68,11 @@
         padding: 10px;
         background-color: cornsilk;
              }
+
      .forecast section {
          display: block;
+         align-content: center;
+         padding: 45px;
      }        
   
       
