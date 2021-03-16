@@ -193,6 +193,46 @@ header img {
         font-size: 15px;
         border-radius: 10px;
             }
+
+/*------homepage------*/
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+   
+ 
+   
+     
+    }
+.cards h2 {
+     text-align: center;
+     font-size: 25px;
+     color: darkblue;
+ }
+ .cards h3 {
+     text-align: center;
+ }
+ .cards p {
+     text-align: center;
+     font-size: 15px;
+ }
+
+
+ .cards img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     box-shadow: 0 0 50px #333;
+          
+ }
+
+ .cards section {
+ 
+    border: 1px solid rgb(111, 111, 141);
+     background-color: cornsilk;
+     padding: 10px;
+     margin: 10px;
+     
+ } 
   
  /*-------------form----------------*/
 

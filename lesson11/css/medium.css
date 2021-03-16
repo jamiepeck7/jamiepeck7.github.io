@@ -45,11 +45,7 @@
       
     }
     
-
-     
-   
-        
-       .summary {
+   .summary {
         position: absolute;
    
         top: 400px;
@@ -74,7 +70,31 @@
          align-content: center;
          padding: 45px;
      }        
-  
+     .hero img {
+        margin-left: 5px;
+     
+        width: 800px;
+            } 
+
+        
+    section {
+        display: grid;
+        max-width: 600px;
+             
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+     
+    }
+   
+   .cards section {
+       display: flex;
+   }
+   .cards section:nth-child(even) {
+       flex-direction: row-reverse;
+   }
       
 
  
@@ -116,7 +136,11 @@
            padding-right: 10px;
                   
         }
-      
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+        }
         
    
     }
