@@ -131,14 +131,14 @@
          
                      
          }
-         .address {
+ .address {
            text-align: right;
            padding-right: 10px;
                   
         }
-        .gallery {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
+.gallery {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
 
         }
         

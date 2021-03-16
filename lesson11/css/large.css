@@ -40,7 +40,7 @@
       
     .summary {
         position: absolute;
-        top: 350px;
+        top: 250px;
         left: 475px;
     }
     .forecast {
@@ -103,8 +103,7 @@
  .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
-        }
+            }
 
  figure:hover {
             box-shadow: 0 0 50px #333;
