@@ -40,7 +40,7 @@
       
     .summary {
         position: absolute;
-        top: 375px;
+        top: 350px;
         left: 475px;
     }
     .forecast {
@@ -99,6 +99,7 @@
     }
    
  /*---gallery---*/
+
  .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
