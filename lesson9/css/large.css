@@ -15,8 +15,22 @@
         font-size: 40px;
     }
 
+    .herodiv {
+        position: relative;
+        width: 960px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: cornsilk;
+               }
+    picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+  
     
-    .hero img {
+   /* .hero img {
         display: block;
         width: 960px;
         height: 300px;
@@ -24,7 +38,23 @@
         margin-left: auto;
         padding-bottom: 10px;
               } 
-    
+    */
+
+    .summary {
+        position: absolute;
+        top: 425px;
+        left: 475px;
+    }
+    .forecast {
+       
+        width: 960px;
+        height: 200px;
+    }
+    .forecast section {
+        display: block;
+        
+      
+    }
   
     .article {
         margin: 0 auto;
@@ -59,21 +89,19 @@
         text-align: center;
             }
      .contact {
-    
-    margin: 0 auto;
+        margin: 0 auto;
             }
-        
-            .map {
-                padding-left: 10px;
-                padding-top: 10px;
+      
+     .map {
+         padding-left: 10px;
+         padding-top: 10px;
              }
-             .address {
-                 padding-right: 200px;
+     .address {
+         padding-right: 200px;
              }
 
     footer {
-        
-    
+         
        margin: 0 auto;
     }
    
