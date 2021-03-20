@@ -41,9 +41,14 @@
     
     .herodiv {
         position: relative;
-        padding-left: 50px;
-      
+        
     }
+    .hero img {
+        margin-left: 5px;
+     
+        width: 800px;
+            } 
+
     
    .summary {
         position: absolute;

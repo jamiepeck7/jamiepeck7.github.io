@@ -110,6 +110,7 @@ header img {
    position: relative;
     width: 300px;
     height: 300px;
+    
 }
 
 
@@ -119,11 +120,17 @@ header img {
          top: 400px;
          left: 75px;
          background-color: rgb(243, 224, 224);
-         
+         opacity: 0.8;
          border: 1px solid rgb(216, 201, 201);
          padding: .5rem;
          box-shadow: 0 0 30px #777;
-         font-size: 12px;
+         
+     }
+     .summary p {
+      
+         margin: 0 auto;
+         padding: 2px;
+         font-size: 14px;
      }
        
    .forecast {
@@ -132,6 +139,19 @@ header img {
         
     .article h3 {
         text-align: center;
+    }
+
+    .events {
+        background-color: rgb(202, 202, 247);
+        border: 1px solid gray;
+        display: block;
+        align-items: center;
+        text-align: center;
+        width: 25%;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10px;
     }
 
   .article {
