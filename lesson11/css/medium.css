@@ -40,15 +40,14 @@
     }
     
     .hero img {
-        margin-left: 5px;
-     
+          
         width: 800px;
             } 
 
     
    .summary {
         position: absolute;
-       top: 400px;
+       top: 330px;
         left: 50px;
         width: auto;
            }
@@ -86,11 +85,14 @@
     .cards {
         display: grid;
         grid-template-columns: 1fr;
-     
+        padding-left: 50px;
+       
     }
    
    .cards section {
        display: flex;
+      
+      
    }
    .cards section:nth-child(even) {
        flex-direction: row-reverse;
