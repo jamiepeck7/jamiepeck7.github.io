@@ -106,40 +106,48 @@ header img {
       font-size: 20px;
   }
 
-  .herodiv {
-   position: relative;
-    width: 300px;
-    height: 300px;
-    
-}
-
-
    
+ 
    .summary {
         position: absolute;
-         top: 400px;
-         left: 75px;
+         top: 285px;
+         left: 50px;
          background-color: rgb(243, 224, 224);
          opacity: 0.8;
          border: 1px solid rgb(216, 201, 201);
          padding: .5rem;
          box-shadow: 0 0 30px #777;
-         
-     }
+         width: 50%;
+   }
+   
+   .summary h3 {
+       margin: 2px;
+   }
+     
      .summary p {
       
          margin: 0 auto;
          padding: 2px;
          font-size: 14px;
      }
+
+     hr {
+         border-radius: 1px solid black;
+     
+     }
        
    .forecast {
         display: none;
    }
-        
-    .article h3 {
-        text-align: center;
-    }
+   .forecast1 {
+       display: none;
+   }
+
+   .events1 h3 {
+       text-align: center;
+       margin-top: 20px;
+   }
+
 
     .events {
         background-color: rgb(202, 202, 247);
@@ -147,11 +155,15 @@ header img {
         display: block;
         align-items: center;
         text-align: center;
-        width: 25%;
+        width: 75%;
         margin-top: 10px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 10px;
+    }
+
+    .article h3 {
+        text-align: center;
     }
 
   .article {
@@ -159,6 +171,8 @@ header img {
    border: 1px groove grey;
     background-color: cornsilk;
     margin-top: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
            }
 
  .rodeo img {
@@ -166,23 +180,20 @@ header img {
      width: 200px;
       height: 200px;
       left: 30px;
-      top: 70px;
+      top: 75px;
       
                
        }  
      
-    .article {
-        padding: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
     .article p {
         text-align: justify;
         margin-left: 250px;
-        padding: 20px;
+        padding-top: 2px;
+        padding-right: 20px;
+        padding-left: 10px;
            }
     .article h3 {
-        padding-left: 30px;
+        padding-left: 50px;
       
     }
 
@@ -272,7 +283,7 @@ form legend {
 
 form label.top, form div {
     display: block;
-    padding-top: 1rem;
+    padding-top: 15px;
     color: black;
     font-size: .9rem;
       }
@@ -304,8 +315,8 @@ form label.str {
 }
 
 form input.submit {
-  border: none;
-  background-color:   #ffffe0;
+  border: solid 1px #575757;
+  background-color:#ffffe0;
   color: black;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
@@ -313,10 +324,13 @@ form input.submit {
   width: 96%;
   max-width: 20rem;
 }
-
-form label.top input:required {
-  border-left: black;
+form label.storm {
+    font-size: 25px;
+    
 }
+
+
+
 
 form label.top input:required:valid {
   border-left: black solid 6px;

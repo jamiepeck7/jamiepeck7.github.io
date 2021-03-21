@@ -39,10 +39,6 @@
         font-size: 30px;
     }
     
-    .herodiv {
-        position: relative;
-        
-    }
     .hero img {
         margin-left: 5px;
      
@@ -52,12 +48,12 @@
     
    .summary {
         position: absolute;
-   
-        top: 400px;
-        left: 75px;
+       top: 400px;
+        left: 50px;
+        width: auto;
            }
 
-   .forecast1 {visibility: visible;}
+   .forecast1 {display: contents;}
 
     .forecast {
         display: contents;
@@ -75,17 +71,16 @@
          align-content: center;
          padding: 45px;
      }        
-     .hero img {
-        margin-left: 5px;
-     
-        width: 800px;
-            } 
-
+                        
         
     section {
         display: grid;
         max-width: 600px;
              
+    }
+
+    .events {
+        width: 50%;
     }
 
     .cards {
@@ -131,16 +126,19 @@
         position: absolute;
         padding-top: 10px;
         padding-left: 5px;
-    
+    }
       
-         
+ .address h3 {
+     text-align: right;
+ }        
                      
-         }
+         
  .address {
            text-align: right;
            padding-right: 10px;
                   
         }
+
 .gallery {
      display: grid;
      grid-template-columns: 1fr 1fr;

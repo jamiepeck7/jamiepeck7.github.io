@@ -1,8 +1,5 @@
 
 
-
-    
-
     var date = new Date();
     if (date.getDay() == 5) {
        document.getElementById("banner").innerText =
