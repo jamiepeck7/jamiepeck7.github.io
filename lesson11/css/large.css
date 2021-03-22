@@ -23,7 +23,7 @@
         display: block;
         width: 960px;
         height: 300px;
-        margin-right: auto;
+         margin-right: auto;
         margin-left: auto;
         padding-bottom: 10px;
               } 
@@ -32,7 +32,9 @@
   .cards {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
-      margin: 0 auto;
+      margin-right: auto;
+      margin-left: auto;
+  
       padding-left: 0px;
                     
        }
@@ -60,7 +62,7 @@
     .summary {
         position: absolute;
         top: 400px;
-        left: 350px;
+        left: 475px;
         
     }
 
