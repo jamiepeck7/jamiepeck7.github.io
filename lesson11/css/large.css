@@ -33,13 +33,14 @@
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      margin: 0 auto;
-     width: 30%;
-      
+     width: 35%;
+     padding-right: 550px;
+            
                     
        }
  .cards section {
       display: block;
-                
+                         
       }
   .cards h2 {
       text-align: center;
