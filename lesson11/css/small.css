@@ -131,11 +131,7 @@ header img {
          font-size: 14px;
      }
 
-     hr {
-         border-radius: 1px solid black;
-     
-     }
-       
+                       
    .forecast {
         display: none;
    }
@@ -289,7 +285,7 @@ form label.top, form div {
       }
   
 form label.top input, form label.top select {
-  -webkit-appearance: none;
+  
   display: block;
   font-size: 1rem;
   border: solid 1px #575757;
