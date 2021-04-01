@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+<meta charset="utf-8">
+<meta name ="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="pocatello chamber of commerce page">
+ <title>Pocatello Chamber Page</title>
+   <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    </head>
+
+<body>
+    <div class="alert">
+        <span class="closebtn">&times;</span>
+        <strong>Alert!</strong>  Stay tuned for the latest in news and weather!
+    </div> 
+    <header>
+         <div class="logo">
+         <img src="images/logo.jpg" alt="image of chamber logo">
+         </div> 
+         <section class="headings">
+         <h1></h1>
+         <div class="motto">Discover Pocatello</div>
+         </section>
+     </header>
+      
+     <nav>
+         <ul class="navigation">
+           
+     <li><a id="ham" href="#" onclick="toggleMenu()"> &#9776;</a></li>
+      <li class="active"><a href="lesson12/index.html">Home</a></li>
+      <li><a href="lesson12/pocatello.html">Pocatello</a></li>
+     <li><a href="lesson12/join.html">Join</a></li>
+     <li><a href="lesson12/directory.html">Directory</a></li>
+     <li><a href="lesson12/contact.html">Contact Us</a></li>
+     
+         </ul>
+      </nav>
+     <main>
+          <h2>Pocatello Happenings</h2>
+            
+    <div class="hero"> 
+                   <picture>
+       <source srcset = "images/pockyheromd.jpg" media="(min-width: 500px) and (max-width: 799px)">
+        <source srcset = "images/pockyhero.jpg" media ="(min-width: 800px)">
+          <img src="images/pockyherosm.jpg" alt="mountains with sky blue clouds">
+                   </picture>
+                </div>                  
+                
+    <section class="summary">
+        <h3>Weather Summary</h3>
+        <hr>
+            <p class="current">Currently: <span id="current"></span></p>
+            <p class="temp">Temperature: <span id="temperature"></span>&#8457;</p>
+            <p class="humidity">Humidity: <span id="humidity"></span>%</p>
+    </section>
+    
+    <div class="aboutus">
+        <h3>Pocatello Chamber of Commerce Purpose</h3>
+        <p>The Pocatello Chamber of Commerce promotes and fosters a favorable business climate through networking, advocacy, and educational 
+    opportunities for the benefit of Chamber members and our community.</p>
+            <hr>
+        <h3>What is Pocatello Chamber?</h3>
+
+         <dl class="whoare">
+             <dt><b>An Information Center</b></dt>
+             <dd>We are the front door to the Community, providing Community information, pamphlets and relocation information</dd>
+             <dt><b>A business Advocate</b></dt>
+             <dd>We advocate for all business members through our programs and voice on State & Local Issues</dd>
+             <dt><b>Community Development</b></dt>
+             <dd>We help enrich the quality of life through our programs including Leadership Pocatello, Beautifcation Programs and the Proud to Be Pocatllo Campaign</dd>
+         </ul>
+    </div>
+
+    <div class="joinform">
+        <a href="lesson12/join.html" class="button" target="_blank">Join Us Today</a>
+    </div>
+
+    <div class="title"><h3>Explore our City</h3></div>
+    <div class="gallery">
+        <figure class="temple"><img src='images/holder.jpg' data-src="images/temple.jpg" alt="pocatello temple"><figcaption>Pocatello Temple</figcaption></figure>
+        <figure class="redrock"><img src='images/holder.jpg' data-src="images/redrock.jpg" alt="city view from redrock"><figcaption>View From ISU Red Rock</figcaption></figure>
+        <figure class="night"><img src='images/holder.jpg' data-src="images/night.jpg" alt="pocky at night"><figcaption>Pocatello at night</figcaption></figure>
+        <figure class="night"><img src='images/holder.jpg' data-src="images/playground.jpg" alt="brooklyns playground"><figcaption>Brooklyns Playground</figcaption></figure>
+    </div>
+
+    <div class="events">
+        <h3>Upcoming Events</h3>
+    </div>
+
+    
+    
+    
+
+    
+
+
+    <div class="forecast"> </div>
+
+    <div class="business">
+        <h3>Our Local Companies</h3>
+        <a class="portneuf" href="https://www.portneuf.org/" target="_blank"><img src="images/portnuef.jpg" alt="portneuf"></a>
+        <a class="cole" href="https://www.colechevrolet.com/" target="_blank"><img src="images/cole.jpg" alt="colechevrolet"></a>
+        <a class="wellness" href="https://bannockcountyeventcenter.us/wellness-complex/" target="_blank"><img src="images/wellness.jpg" alt="portneufwellnesscenter"></a>
+
+    </div>
+
+    
+   <div class="contact"> 
+                      
+    <div class="address">
+        <h3>Address:</h3>            
+            <p>324 S Main St<br>
+            Pocatello, ID  83204<br><br>
+            tel: 208-233-1525<br>
+            info@pocatellidaho.com
+            </p>
+                             
+    <a href="https://www.facebook.com"><img src="images/facebook.jpeg" alt="facebook"> </a>
+    <a href="https://www.instagram.com"><img src="images/instagram.jpg" alt="instagram"></a>
+    <a href="https://www.youtube.com"> <img src="images/youtube.jpg" alt="youtube"></a>  
+    </div>
+         </div>
+                  
+                  
+                         
+        </div>
+
+
+          
+
+</main>
+         <footer>
+            <div class="info">
+      
+              <h4>&copy; Pocatello Happenings | Jamie Peck | </h4>
+            
+                <script src="js/day.js"></script>
+                </div>
+      
+          
+        </footer>
+<script src = "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/menu.js"></script> 
+<script src="js/banner.js"></script>
+<script src="js/weather.js"></script>
+<script src = "js/forecast.js"></script>
+<script src = "js/imagehandling.js"></script>
+<script src="js/loader.js"></script>
+                     
+</body>
+</html>
+     
+     

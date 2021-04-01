@@ -1,0 +1,142 @@
+@media only screen and (min-width: 60em) {
+
+	.navigation a {
+		font-size: 20px;
+    }
+    .headings h1 {
+        font-size: 30px;
+    }
+    .motto {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+    picture {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .hero img {
+        display: block;
+        width: 960px;
+        height: 300px;
+         margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 10px;
+              } 
+    
+    
+  .cards {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin: 0 auto;
+     width: 35%;
+     padding-right: 550px;
+            
+                    
+       }
+ .cards section {
+      display: block;
+                         
+      }
+  .cards h2 {
+      text-align: center;
+      font-size: 25px;
+     color: darkblue;
+            }
+        
+                            
+  .cards p {
+     text-align: center;
+    font-size: 15px;
+          }
+                    
+  .cards h3 {
+     text-align: center;
+               }
+  
+      
+    .summary {
+        position: absolute;
+        top: 400px;
+        left: 475px;
+        
+    }
+
+    .forecast {
+       
+        width: 960px;
+        height: 200px;
+    }
+    .forecast section {
+        display: block;
+        
+    }
+    .events {
+        width: 25%;
+    }
+   
+       
+    .business {
+        margin: 0 auto;
+        width: 960px;
+        height: 300px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+              }
+               
+    .pocky {
+    margin: 0 auto;
+    width: 960px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+   
+   
+   
+   
+   
+   
+
+    .contact {
+      
+        margin: 0 auto;
+    }
+
+    .map {
+       padding-left: 10px;
+       padding-top: 10px;
+    }
+
+    .address h3 {
+        text-align: right;
+    }
+    .address {
+        padding-right: 200px;
+    }
+
+
+    footer {
+       margin: 0 auto;
+    }
+   
+ /*---gallery---*/
+
+ .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+
+ figure:hover {
+            box-shadow: 0 0 50px #333;
+        }
+
+    
+    }
+
+	

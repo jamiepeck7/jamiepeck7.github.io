@@ -1,0 +1,55 @@
+{
+	"directory": [
+	{
+	"businessName": "Senior Iguanas",
+	"address": "961 Hiline Road",
+	"phoneNumber": "208-233-4422",
+	"webAddress": "https://facebook.com/Senior-Iguanas",
+	"icon": "",
+	},
+	{
+	"businessName": "Idaho Central Credit Union",
+	"address": "4400 Central Way",
+	"phoneNumber": "1-800-456-5067",
+	"webAddress": "https://www.iccu.com",
+	"icon": "",
+	},
+	{
+	"businessName": "Mings Cafe",
+	"address": "714 N. 5th St.",
+	"phoneNumber": "208-232-3388",
+	"webAddress": "https://facebook.com/Mings-Cafe",
+	"icon": "",
+	},
+	{
+	"businessName": "Pocatello Electric",
+	"address": "258 N. Main St.",
+	"phoneNumber": "208-232-1981",
+	"webAddress": "https://www.pocatelloelectric.com",
+	"icon": "",
+	},
+	{
+	"businessName": "Soda Barn",
+	"address": "650 S. 5th St.",
+	"phoneNumber": "208-251-0918",
+	"webAddress": "https://facebook.com/mysodabarn",
+	"icon": "",
+	},
+	{
+	"businessName": "5th Street Hair Studio",
+	"address": "416 S. 5th",
+	"phoneNumber": "208-269-8839",
+	"webAddress": "https://facebook.com/5thstreethair",
+	"icon": "",
+	},
+	{
+	"businessName": "BengalWorks Graphics",
+	"address": "470 W. Oak St.",
+	"phoneNumber": "208-242-3831",
+	"webAddress": "https://www.bengalworks.com",
+	"icon": "",
+	}
+	]
+	}
+	
+	
