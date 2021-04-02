@@ -31,7 +31,13 @@ picture {
     font-size: 35px;
     color: darkblue;
 }  
+iframe {
+    width: 800px;
+    margin-left: 25%;
+    margin-right: 25%;
     
+    
+}  
 .cards {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
