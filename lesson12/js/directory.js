@@ -16,11 +16,12 @@ fetch(requestURL)
         let p3 = document.createElement('p');
         let icon = document.createElement('img');
         let num = i + 1;
+       
 
         h2.textContent = directory[i].businessName;
         p1.textContent = "Location: " + directory[i].address;
         p2.textContent = "Phone Number: " + directory[i].phoneNumber;
-        p2.textContent = "Web Address: " + directory[i].webAddress;
+        p3.textContent = "Web Address: " + directory[i].link_url;
         icon.setAttribute('src', directory[i].icon);
         icon.setAttribute('alt', directory[i].businessName + '-' + num);
 
@@ -28,6 +29,7 @@ fetch(requestURL)
         card.appendChild(h2);
         card.appendChild(p1);
         card.appendChild(p2);
+        card.appendChild(p3);
         card.appendChild(icon);
 
         document.querySelector('div.cards').appendChild(card);
