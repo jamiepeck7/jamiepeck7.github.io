@@ -21,7 +21,7 @@ fetch(requestURL)
         h2.textContent = directory[i].businessName;
         p1.textContent = "Location: " + directory[i].address;
         p2.textContent = "Phone Number: " + directory[i].phoneNumber;
-        p3.textContent = "Web Address: " + directory[i].link_url;
+        p3.textContent = "Web Address: " + directory[i].link;
         icon.setAttribute('src', directory[i].icon);
         icon.setAttribute('alt', directory[i].businessName + '-' + num);
 
