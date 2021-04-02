@@ -16,12 +16,14 @@ fetch(requestURL)
         let p3 = document.createElement('p');
         let icon = document.createElement('img');
         let num = i + 1;
+        let web = "Web Address";
+        let result = web.link(directory[i].link);
        
 
         h2.textContent = directory[i].businessName;
         p1.textContent = "Location: " + directory[i].address;
         p2.textContent = "Phone Number: " + directory[i].phoneNumber;
-        p3.textContent = "Web Address: " + directory[i].link;
+        p3.textContent = result;
         icon.setAttribute('src', directory[i].icon);
         icon.setAttribute('alt', directory[i].businessName + '-' + num);
 
