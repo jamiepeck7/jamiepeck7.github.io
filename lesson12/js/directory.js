@@ -1,4 +1,4 @@
-const requestURL = 'https://jamiepeck7.github.io/lesson12/directory.json';
+const requestURL = 'https://jamiepeck7.github.io/lesson12/business.json';
 
 
 fetch(requestURL)
@@ -7,27 +7,28 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const prophets = jsonObject['prophets'];
-    for (let i = 0; i < prophets.length; i++) {
+    const directory = jsonObject['directory'];
+    for (let i = 0; i < directory.length; i++) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
-        let image = document.createElement('img');
-        let fullname = prophets[i].name + ' ' + prophets[i].lastname;
-        let ldsnum = i + 1;
+        let p3 = document.createElement('p');
+        let icon = document.createElement('img');
+        let num = i + 1;
 
-        h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-        p1.textContent = "Date of Birth: " + prophets[i].birthdate;
-        p2.textContent = "Place of Birth: " + prophets[i].birthplace;
-        image.setAttribute('src', prophets[i].imageurl);
-        image.setAttribute('alt', fullname + '-' + ldsnum);
+        h2.textContent = directory[i].businessName;
+        p1.textContent = "Location: " + directory[i].address;
+        p2.textContent = "Phone Number: " + directory[i].phoneNumber;
+        p2.textContent = "Web Address: " + directory[i].webAddress;
+        icon.setAttribute('src', directory[i].icon);
+        image.setAttribute('alt', directory[i].businessName + '-' + num);
 
 
         card.appendChild(h2);
         card.appendChild(p1);
         card.appendChild(p2);
-        card.appendChild(image);
+        card.appendChild(icon);
 
         document.querySelector('div.cards').appendChild(card);
 
