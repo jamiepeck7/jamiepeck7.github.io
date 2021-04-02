@@ -22,7 +22,7 @@ fetch(requestURL)
         p2.textContent = "Phone Number: " + directory[i].phoneNumber;
         p2.textContent = "Web Address: " + directory[i].webAddress;
         icon.setAttribute('src', directory[i].icon);
-        image.setAttribute('alt', directory[i].businessName + '-' + num);
+        icon.setAttribute('alt', directory[i].businessName + '-' + num);
 
 
         card.appendChild(h2);
