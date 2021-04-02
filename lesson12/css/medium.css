@@ -104,32 +104,19 @@
         text-align: center;
     }
   
-    .article p {
+    .aboutus p {
        
-       margin-left: 300px;
+      
         font-size: 20px;
     }
 
-    .rodeo img{
-        top: 20px;
-        right: 0px;
-         width: 250px;
-         height: 200px;
-                          
-          }      
     .contact {
         border-style: groove;
         font-size: 20px;
             }
      
     
-    .map {
-        display: inherit;
-        position: absolute;
-        padding-top: 10px;
-        padding-left: 5px;
-    }
-      
+     
  .address h3 {
      text-align: right;
  }        

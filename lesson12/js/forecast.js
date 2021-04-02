@@ -6,7 +6,7 @@ fetch(apiURL1)
         console.log(jsObject);
         const daily = jsObject['daily'];
         const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday"];
-        const dayofweek = 0;
+        const dayofWeek = 0;
 
 
         
