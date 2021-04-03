@@ -47,12 +47,12 @@
     
    .summary {
         position: absolute;
-       top: 330px;
+       top: 450px;
         left: 50px;
         width: auto;
            }
 
-   .forecast1 {display: contents;}
+ 
 
     .forecast {
         display: contents;
@@ -118,13 +118,13 @@
     
      
  .address h3 {
-     text-align: right;
+     text-align: center;
  }        
                      
          
  .address {
-           text-align: right;
-           padding-right: 10px;
+           text-align: center;
+         
                   
         }
 
