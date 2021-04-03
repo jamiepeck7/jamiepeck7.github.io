@@ -4,49 +4,49 @@
 	"businessName": "Senior Iguanas",
 	"address": "961 Hiline Road",
 	"phoneNumber": "208-233-4422",
-	"link": "https://facebook.com/Senior-Iguanas",
+	"link": "href=https://facebook.com/Senior-Iguanas",
 	"icon": "https://jamiepeck7.github.io/lesson12/images/senior.jpg"
 	},
 	{
 	"businessName": "Idaho Central Credit Union",
 	"address": "1045 Yellowstone Ave",
 	"phoneNumber": "208-478-3300",
-	"link": "https://www.iccu.com",
+	"link": "href=https://www.iccu.com",
 	"icon": "https://jamiepeck7.github.io/lesson12/images/iccu.jpg"
 	},
 	{
 	"businessName": "Mings Cafe",
 	"address": "714 N. 5th St.",
 	"phoneNumber": "208-232-3388",
-	"link": "https://facebook.com/Mings-Cafe",
+	"link": "href=https://facebook.com/Mings-Cafe",
 	"icon": "https://jamiepeck7.github.io/lesson12/images/mings.jpg"
 	},
 	{
 	"businessName": "Pocatello Electric",
 	"address": "258 N. Main St.",
 	"phoneNumber": "208-232-1981",
-	"link": "https://www.pocatelloelectric.com",
+	"link": "href=https://www.pocatelloelectric.com",
 	"icon": "https://jamiepeck7.github.io/lesson12/images/electric.jpg"
 	},
 	{
 	"businessName": "Soda Barn",
 	"address": "650 S. 5th St.",
 	"phoneNumber": "208-251-0918",
-	"link": "https://facebook.com/mysodabarn",
+	"link": "href=https://facebook.com/mysodabarn",
 	"icon": "https://jamiepeck7.github.io/lesson12/images/soda.jpg"
 	},
 	{
 	"businessName": "5th Street Hair Studio",
 	"address": "416 S. 5th",
 	"phoneNumber": "208-269-8839",
-	"link": "https://facebook.com/5thstreethair",
+	"link": "href=https://facebook.com/5thstreethair",
 	"icon": "https://jamiepeck7.github.io/lesson12/images/hair.jpg"
 	},
 	{
 	"businessName": "BengalWorks Graphics",
 	"address": "470 W. Oak St.",
 	"phoneNumber": "208-242-3831",
-	"link": "https://www.bengalworks.com",
+	"link": "href=https://www.bengalworks.com",
 	"icon": "https://jamiepeck7.github.io/lesson12/images/bweb.jpg"
 	}
 	]
