@@ -26,7 +26,7 @@ fetch(requestURL)
         h2.textContent = directory[i].businessName;
         p1.textContent = "Location: " + directory[i].address;
         p2.textContent = "Phone Number: " + directory[i].phoneNumber;
-        h3.textContent = "Web Address; " + directory[i].link;
+        h3.textContent = "Web Address: " + "<a "+ directory[i].link +" ></a>";
       // p3.appendChild(linkText);
      //  p3.title = "Web Address";
       // p3.href = directory[i].link;
