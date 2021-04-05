@@ -40,16 +40,17 @@ iframe {
 }  
 .cards {
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     margin: 0 auto;
+     grid-template-columns: 1fr 1fr;
+    margin-left: auto;
+    margin-right: auto;
      width: 35%;
-     padding-right: 550px;
-            
+   
+   
                     
        }
 .cards section {
       display: block;
-      padding: 10px;
+     
       width: 325px;
      align-content: center;
      
@@ -175,7 +176,10 @@ footer {
             box-shadow: 0 0 50px #333;
         }
 
-    
+form fieldset {
+    width: 800px;
+          
+              }          
     }
 
 	
