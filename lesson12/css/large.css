@@ -49,6 +49,13 @@ iframe {
        }
 .cards section {
       display: block;
+      padding: 10px;
+      width: 325px;
+     align-content: center;
+     
+      gap: 10px;
+      
+      
                          
       }
 .cards h2 {
@@ -77,10 +84,11 @@ iframe {
 
 .forecast {
        
-    width: 960px;
+    width: 600px;
            }
 .forecast section {
     display: block;
+    
         
     }
 .events {

@@ -5,47 +5,42 @@ fetch(apiURL1)
     .then((jsObject) => {
         console.log(jsObject);
         const daily = jsObject['daily'];
-        const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday"];
-        const dayofWeek = 0;
-
-
+   
+        const doweek = new Date();
+        const weekday = doweek.toLocaleDateString("default",{weekday: "long"});
         
-        for(i=0; i < daily.length; i++) {
+       console.log(weekday);
+          
+        
+        for(i=1; i < 4; i++) {
             let forecast = document.createElement('section');
             let dayofWeek = document.createElement('p');
             let icon = document.createElement('img');
             let temperature = document.createElement('p');
+            const d = new Date(daily[i].dt * 1000).toLocaleDateString("en", { weekday: "long",});
+            console.log(d);
+
          
-           
-            if (daily[i].temp.day) {
-                const d = new Date(daily[i].temp.day);
-                const currentdow = d.getDay();
-                const count = 1;
-                const imagesrc = "https://openweathermap.org/img/wn/" + jsObject.daily[i].weather[0].icon + '.png'; 
-                const desc = jsObject.daily[i].weather[0].description; 
-               
-                
-                dayofWeek.textContent = days[currentdow];
-                temperature.textContent = daily[i].temp.day + ' \xB0F';
-                
+         
+            const imagesrc = "https://openweathermap.org/img/wn/" + jsObject.daily[i].weather[0].icon + '.png'; 
+            const desc = jsObject.daily[i].weather[0].description; 
+                        
+            dayofWeek.textContent = d;
+            temperature.textContent = daily[i].temp.day + ' \xB0F';
+             
               
-                icon.setAttribute("src", imagesrc);
-                icon.setAttribute('alt', desc);
+            icon.setAttribute("src", imagesrc);
+            icon.setAttribute('alt', desc);
 
-                forecast.appendChild(dayofWeek);
+            forecast.appendChild(dayofWeek);
                
-                forecast.appendChild(icon);
-                forecast.appendChild(temperature);
+            forecast.appendChild(icon);
+            forecast.appendChild(temperature);
 
-                document.querySelector('div.forecast').appendChild(forecast);
-
-                
-                
-            }
-            
-        }
-         
-       
+            document.querySelector('div.forecast').appendChild(forecast);  
+           
+           
+        }                                                                                                                                                                                                                                                             
         
         
        

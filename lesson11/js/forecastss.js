@@ -20,6 +20,7 @@ fetch(apiURL1)
             if (list[i].dt_txt.includes("18:00:00")) {
                 const d = new Date(list[i].dt_txt);
                 const currentdow = d.getDay();
+                console.log(currentdow);
                 const count = 1;
                 const imagesrc = "https://openweathermap.org/img/wn/" + jsObject.list[i].weather[0].icon + '.png'; 
                 const desc = jsObject.list[i].weather[0].description; 

@@ -67,8 +67,11 @@
 
      .forecast section {
          display: block;
-         align-content: center;
-         padding: 45px;
+         margin-left: center;
+         margin-right: center;
+         padding: 55px;
+         
+        
      }        
                         
         
